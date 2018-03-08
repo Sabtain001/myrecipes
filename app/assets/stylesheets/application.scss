@@ -1,3 +1,38 @@
-// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+$navbar-default-bg: #073B15;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('a1.jpeg');
+  background-size: cover;
+  height: 300px;
+}
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+
+}
+
+.btn-xlarge {
+  background-color: #073B15;
+}
+
+.btn-xlarge:hover {
+  color: #fff;
+  text-decoration: none;
+}
